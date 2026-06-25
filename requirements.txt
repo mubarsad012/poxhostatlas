@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+pydeseq2==0.5.4
+matplotlib
+seaborn
+GEOparse
+requests
+openpyxl
+scikit-learn
+networkx
+statsmodels

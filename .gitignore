@@ -1,0 +1,11 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+
+# Large / regenerable data
+data/raw/
+data/processed/
