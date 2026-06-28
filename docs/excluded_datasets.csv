@@ -1,0 +1,10 @@
+accession,title,virus,host_species,reason_excluded,tier
+GSE185520,Vaccinia D10 decapping host shutoff,Vaccinia,Homo sapiens,Only cufflinks FPKM/log2FC tables (no variance/raw counts); used for external directional validation only,B
+GSE288433,MYXV barcoded screen,Myxoma,Homo sapiens,Screen design requires barcode/sample decoding before clean infection contrasts can be defined,C
+GSE329296,MURV-seq 5-prime leader diversity,Poxvirus,Homo sapiens,Specialized leader/terminus assay; not comparable to host differential-expression contrasts,C
+GSE228963,Vaccinia viral mRNA translation,Vaccinia,Orthopoxvirus,Viral transcript side only; no host control contrast,C
+GSE137757,Inpp5e 5-prime leader oncolytic resistance,Oncolytic virus,Mus musculus,Mouse translation-efficiency normalized tables; ortholog and normalization caveats,C
+GSE280044,Vaccinia poxin B2R expression in NK-92,Vaccinia,Homo sapiens,Single viral gene expression rather than whole-virus infection/host shutoff,C
+GSE228918,Mutualistic entomopoxvirus in fruit flies,Entomopoxvirus,Insect,Insect hosts without comparable human translation-factor orthologs,C
+GSE259380,Oncolytic Vaccinia TG6050 tumor model,Vaccinia,Mus musculus,Tumor-microenvironment immunotherapy context rather than host translation shutoff,C
+GSE314036,Oncolytic vaccinia JX-594 gastric lines,Vaccinia,Homo sapiens,Therapeutic efficacy/biomarker screen; infection-response contrast not cleanly defined,C
