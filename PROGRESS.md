@@ -7,3 +7,7 @@ Today, I completed the initialization of the repository and I wrote a draft of t
 ## 2026-06-25
 
 Today, I have written the research question that I want this project to work toward, key objectives of the project, and made some hypotheses. Furthermore, I have laid out the dataset selection (registry, criteria for exclusion/inclusion, tiering, and expansion targets). 
+
+## 2026-06-27
+
+Today, I built the data-acquisition and also I built the preprocessing pipeline with Claude AI then revieweing the code and making fixes that was making it fail to run. Also this pipeline was made for the vaccina anchor dataset GSE278320 (GEO fetach, count harmonization, gene annotation). Also today I also did the start of the [analysis.py](http://analysis.py) which is going to be the reproducible driver. 
