@@ -11,3 +11,7 @@ Today, I have written the research question that I want this project to work tow
 ## 2026-06-27
 
 Today, I built the data-acquisition and also I built the preprocessing pipeline with Claude AI then revieweing the code and making fixes that was making it fail to run. Also this pipeline was made for the vaccina anchor dataset GSE278320 (GEO fetach, count harmonization, gene annotation). Also today I also did the start of the [analysis.py](http://analysis.py) which is going to be the reproducible driver. 
+
+## 2026-06-29
+
+Today, the main thing that I worked on was that I wrote and now we also just ran the differential expression with the PyDESeq2 (VacV vs mock) and also then I extracted the translation-factor/RNA-helicase view. 

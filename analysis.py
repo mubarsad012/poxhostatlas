@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """End-to-end reproducible analysis pipeline for PoxHostAtlas.
 
-Running this script will cause for there to be a re-running for every analysis stage that is below in order and this will reproduces
-all of the outputs under the results/. The stages are going to be appended as this project will be growing; this file
-will be a reflection of the pipeline as of the latest stage that is being listed.
+Executing this script reruns all preceding analysis stages sequentially, replicating every file contained within the results directory.
+
+As the project expands, new stages are added to the pipeline; this version captures the analysis sequence up to the final stage documented here.
+
 
 Usage:
     python analysis.py                 # run the whole pipeline
@@ -24,6 +25,8 @@ SCRIPTS = ROOT / "scripts"
 STAGES = [
     ('Fetch GEO data', '01_fetch_data.py', []),
     ('Preprocess & harmonize counts', '02_preprocess_counts.py', ['--min-total-count', '10']),
+    ('Differential expression (PyDESeq2)', '03_run_pydeseq2.py', ['--n-cpus', '4']),
+    ('Translation-factor / helicase view', '04_analyze_translation_factors.py', ['--padj', '0.05']),
 ]
 
 
