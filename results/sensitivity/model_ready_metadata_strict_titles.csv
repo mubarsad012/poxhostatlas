@@ -1,0 +1,8 @@
+sample_id,title,infection,geo_infection,cell_line,fraction,fraction_source,replicate
+GSM8544817,HAP1parental cell_mock_total_2,mock,mock,wild type,total,supplementary_count_filename,2
+GSM8544823,HAP1parental cell_mock_total_3,mock,mock,wild type,total,supplementary_count_filename,3
+GSM8544820,HAP1parental cell_VacV_total_2,VacV,VacV,wild type,total,supplementary_count_filename,2
+GSM8544826,HAP1parental cell_VacV_total_3,VacV,VacV,wild type,total,supplementary_count_filename,3
+GSM8544836,HAP1parental cell_VacV_total_5,VacV,VacV,wild type,total,supplementary_count_filename,5
+GSM8544842,HAP1parental cell_VacV_total_6,VacV,VacV,wild type,total,supplementary_count_filename,6
+GSM8544848,HAP1parental cell_VacV_total_7,VacV,VacV,wild type,total,supplementary_count_filename,7

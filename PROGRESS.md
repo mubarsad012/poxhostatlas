@@ -15,3 +15,7 @@ Today, I built the data-acquisition and also I built the preprocessing pipeline 
 ## 2026-06-29
 
 Today, the main thing that I worked on was that I wrote and now we also just ran the differential expression with the PyDESeq2 (VacV vs mock) and also then I extracted the translation-factor/RNA-helicase view. 
+
+## 2026-07-01
+
+Today what I did was that I mainly was working on and completed the generation of the primary figures (volcano plot and the heatmap) and also today I worked on adding a strict-title sensitivity analysis for the purpose of robustness to GEO metadata quirks.

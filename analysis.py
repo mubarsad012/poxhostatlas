@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """End-to-end reproducible analysis pipeline for PoxHostAtlas.
 
-Executing this script reruns all preceding analysis stages sequentially, replicating every file contained within the results directory.
-
-As the project expands, new stages are added to the pipeline; this version captures the analysis sequence up to the final stage documented here.
-
+By running this script, what happens is that there is a re-running of every analysis stage below, in order, and reproduces
+all of the outputs under the file of results/. The stages here will be appended as the project grows; this file
+reflects the pipeline as of the latest stage that is going tobelisted.
 
 Usage:
     python analysis.py                 # run the whole pipeline
@@ -27,6 +26,8 @@ STAGES = [
     ('Preprocess & harmonize counts', '02_preprocess_counts.py', ['--min-total-count', '10']),
     ('Differential expression (PyDESeq2)', '03_run_pydeseq2.py', ['--n-cpus', '4']),
     ('Translation-factor / helicase view', '04_analyze_translation_factors.py', ['--padj', '0.05']),
+    ('Primary figures', '05_generate_figures.py', ['--padj', '0.05', '--top-n', '30']),
+    ('Sensitivity analysis', '06_run_sensitivity_analysis.py', ['--min-total-count', '10', '--padj', '0.05', '--n-cpus', '4']),
 ]
 
 
