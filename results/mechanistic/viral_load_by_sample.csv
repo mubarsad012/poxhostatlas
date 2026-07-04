@@ -1,0 +1,10 @@
+sample_id,viral_gene_count,viral_normalized_sum,viral_normalized_mean,log10_viral_normalized_sum_plus1,title,infection,geo_infection,cell_line,fraction,fraction_source,replicate
+GSM8544817,218,1126.2865452243686,5.166452042313618,3.052034323492483,HAP1parental cell_mock_total_2,mock,mock,wild type,total,supplementary_count_filename,2
+GSM8544823,218,2215.1336100122744,10.161163348680159,3.3455959403261732,HAP1parental cell_mock_total_3,mock,mock,wild type,total,supplementary_count_filename,3
+GSM8544828,218,70.06161540102747,0.3213835568854471,1.8516350758211695,HAP1parental cell_mock_polysomes_4,mock,mock,wild type,total,supplementary_count_filename,4
+GSM8544820,218,7751637.686346968,35557.971038288844,6.889393521501077,HAP1parental cell_VacV_total_2,VacV,VacV,wild type,total,supplementary_count_filename,2
+GSM8544826,218,9261658.203209918,42484.67065692623,6.966688796428075,HAP1parental cell_VacV_total_3,VacV,VacV,wild type,total,supplementary_count_filename,3
+GSM8544830,218,8362277.868812018,38359.07279271568,6.922324646491934,HAP1parental cell_VacV_polysomes_4,VacV,VacV,wild type,total,supplementary_count_filename,4
+GSM8544836,218,14609181.438759152,67014.59375577593,7.164625912561925,HAP1parental cell_VacV_total_5,VacV,VacV,wild type,total,supplementary_count_filename,5
+GSM8544842,218,5380155.590149552,24679.612798851154,6.730794916047095,HAP1parental cell_VacV_total_6,VacV,VacV,wild type,total,supplementary_count_filename,6
+GSM8544848,218,9814189.195472676,45019.216492993924,6.991854470197156,HAP1parental cell_VacV_total_7,VacV,VacV,wild type,total,supplementary_count_filename,7

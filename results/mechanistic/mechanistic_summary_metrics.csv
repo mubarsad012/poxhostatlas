@@ -1,0 +1,9 @@
+metric,value
+host_model_genes,21617.0
+viral_model_genes,218.0
+host_protein_coding_model_genes,14148.0
+curated_host_protein_coding_translation_targets,197.0
+curated_significant_with_abs_log2fc_ge_threshold,140.0
+dhx29_priority_rank,52.0
+dhx29_helicase_priority_rank,4.0
+module_enrichment_min_padj,1.3595843356134922e-85

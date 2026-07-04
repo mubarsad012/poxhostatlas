@@ -19,3 +19,7 @@ Today, the main thing that I worked on was that I wrote and now we also just ran
 ## 2026-07-01
 
 Today what I did was that I mainly was working on and completed the generation of the primary figures (volcano plot and the heatmap) and also today I worked on adding a strict-title sensitivity analysis for the purpose of robustness to GEO metadata quirks.
+
+## 2026-07-03
+
+Today what I did was that I added a host-only mechanistic curation layer to my project (this was GENCODE biotype filtering and curated host targets) and also added a STRING-based prioritization.
