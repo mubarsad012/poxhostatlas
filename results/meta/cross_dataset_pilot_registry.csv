@@ -1,0 +1,3 @@
+dataset,description,samples,genes_modeled,target_genes,significant_targets,source_url
+GSE287860,M003.1 versus mCherry compact poxvirus effector RNA-seq contrast,6,23151,554,158,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE287nnn/GSE287860/suppl/GSE287860_raw_feature_counts.txt.gz
+GSE288000_NTC,NTC background M003.1 versus mCherry poxvirus effector RNA-seq contrast,6,21722,354,131,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE288nnn/GSE288000/suppl/GSE288000_raw_feature_counts2.txt.gz

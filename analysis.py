@@ -29,6 +29,8 @@ STAGES = [
     ('Primary figures', '05_generate_figures.py', ['--padj', '0.05', '--top-n', '30']),
     ('Sensitivity analysis', '06_run_sensitivity_analysis.py', ['--min-total-count', '10', '--padj', '0.05', '--n-cpus', '4']),
     ('Mechanistic host-curation', '11_run_mechanistic_prioritization.py', ['--padj', '0.05', '--effect-size', '0.5', '--top-n', '30']),
+    ('Cross-dataset pilot', '10_run_cross_dataset_pilot.py', ['--min-total-count', '10', '--padj', '0.05', '--n-cpus', '4']),
+    ('Expanded multi-dataset DGE', '12_run_expanded_dge.py', ['--min-total-count', '10', '--padj', '0.05', '--n-cpus', '4']),
 ]
 
 

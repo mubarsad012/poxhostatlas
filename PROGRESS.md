@@ -23,3 +23,7 @@ Today what I did was that I mainly was working on and completed the generation o
 ## 2026-07-03
 
 Today what I did was that I added a host-only mechanistic curation layer to my project (this was GENCODE biotype filtering and curated host targets) and also added a STRING-based prioritization.
+
+## 2026-07-05
+
+Today I brought in some of the additional datasets. For example what I did was that I added a cross-dataset pilot and expanded differential expression across the Myxoma effector studies and also the a vaccinia time course.

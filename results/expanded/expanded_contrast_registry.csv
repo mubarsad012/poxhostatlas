@@ -1,0 +1,9 @@
+contrast_id,study,virus_system,context,comparison,samples,genes_modeled,translation_factors,significant_translation_factors,use_in_primary_meta
+GSE288000_NTC,GSE288000,Myxoma_M003_effector,NTC host background,M003 vs mCherry,6.0,21722,354,131,True
+GSE288000_N4BP1,GSE288000,Myxoma_M003_effector,N4BP1 host background,M003 vs mCherry,6.0,21919,349,24,False
+GSE288000_ZC3H12A,GSE288000,Myxoma_M003_effector,ZC3H12A host background,M003 vs mCherry,6.0,20325,338,52,False
+GSE288000_TRIM25,GSE288000,Myxoma_M003_effector,TRIM25 host background,M003 vs mCherry,6.0,22025,352,68,False
+GSE288000_ZC3H12A_N4BP1,GSE288000,Myxoma_M003_effector,ZC3H12A_N4BP1 host background,M003 vs mCherry,6.0,19804,333,1,False
+GSE284044_2hpi,GSE284044,Vaccinia_infection,Vero 2 hpi,VacV vs mock,,16017,185,0,False
+GSE284044_6hpi,GSE284044,Vaccinia_infection,Vero 6 hpi,VacV vs mock,,18785,188,1,True
+GSE284044_24hpi,GSE284044,Vaccinia_infection,Vero 24 hpi,VacV vs mock,,17838,188,23,False
