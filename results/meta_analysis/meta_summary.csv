@@ -1,0 +1,4 @@
+meta_set,genes_tested,genes_3plus_studies,sig_genes_FDR05,sig_translation_factors_FDR05,median_I2_sig
+pan_poxvirus,22009,16841,4121,65,33.98086209196239
+vaccinia,12103,0,524,6,0.0
+effector,18831,0,8839,149,0.0

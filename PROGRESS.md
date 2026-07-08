@@ -1,3 +1,5 @@
+
+
 # Progress log
 
 ## 2026-06-24
@@ -27,3 +29,7 @@ Today what I did was that I added a host-only mechanistic curation layer to my p
 ## 2026-07-05
 
 Today I brought in some of the additional datasets. For example what I did was that I added a cross-dataset pilot and expanded differential expression across the Myxoma effector studies and also the a vaccinia time course.
+
+## 2026-07-07
+
+Today what I did was that I was working on figuringi out how to run the genome-wide random-effects meta-analysis (DerSimonian-Laird) and this was for across the independent studies.
