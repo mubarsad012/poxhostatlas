@@ -32,6 +32,7 @@ STAGES = [
     ('Cross-dataset pilot', '10_run_cross_dataset_pilot.py', ['--min-total-count', '10', '--padj', '0.05', '--n-cpus', '4']),
     ('Expanded multi-dataset DGE', '12_run_expanded_dge.py', ['--min-total-count', '10', '--padj', '0.05', '--n-cpus', '4']),
     ('Random-effects meta-analysis', '13_run_meta_analysis.py', []),
+    ('Robust meta + heterogeneity', '18_run_robust_meta.py', []),
 ]
 
 

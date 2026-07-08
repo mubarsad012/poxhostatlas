@@ -1,5 +1,3 @@
-
-
 # Progress log
 
 ## 2026-06-24
@@ -33,3 +31,7 @@ Today I brought in some of the additional datasets. For example what I did was t
 ## 2026-07-07
 
 Today what I did was that I was working on figuringi out how to run the genome-wide random-effects meta-analysis (DerSimonian-Laird) and this was for across the independent studies.
+
+## 2026-07-08
+
+Today I was working on adding a leave-one-study-out robustness and also to add a heterogeneity classification to the meta-analysis that I currently have which I think should make this analysis stronger. 
