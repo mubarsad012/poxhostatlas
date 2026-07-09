@@ -35,3 +35,7 @@ Today what I did was that I was working on figuringi out how to run the genome-w
 ## 2026-07-08
 
 Today I was working on adding a leave-one-study-out robustness and also to add a heterogeneity classification to the meta-analysis that I currently have which I think should make this analysis stronger. 
+
+## 2026-07-09
+
+Today I was working on building the advanced and integrative synthesis (in this specifically working on the host-background robustness, temporal dynamics, cross-study rank correlation, and also the composite evidence).

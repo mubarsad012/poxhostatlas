@@ -33,6 +33,8 @@ STAGES = [
     ('Expanded multi-dataset DGE', '12_run_expanded_dge.py', ['--min-total-count', '10', '--padj', '0.05', '--n-cpus', '4']),
     ('Random-effects meta-analysis', '13_run_meta_analysis.py', []),
     ('Robust meta + heterogeneity', '18_run_robust_meta.py', []),
+    ('Advanced synthesis', '14_run_advanced_synthesis.py', []),
+    ('Integrative synthesis', '16_run_integrative_synthesis.py', []),
 ]
 
 
