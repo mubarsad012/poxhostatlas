@@ -1,0 +1,2 @@
+signature_balanced_accuracy,n_random_sets,null_mean,null_sd,percentile_vs_null,empirical_p,signature_size
+0.7888888888888889,1000,0.7010777777777778,0.1035195997425811,81.69999999999999,0.1838161838161838,29

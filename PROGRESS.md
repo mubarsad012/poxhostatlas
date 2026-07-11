@@ -39,3 +39,7 @@ Today I was working on adding a leave-one-study-out robustness and also to add a
 ## 2026-07-09
 
 Today I was working on building the advanced and integrative synthesis (in this specifically working on the host-background robustness, temporal dynamics, cross-study rank correlation, and also the composite evidence).
+
+## 2026-07-10
+
+Today the main goal that I had was so that I can create a leave-one-dataset-out portability stress-test (for example what I mean by this is a simple classifier checking whether or not there is signature transfers to an unseen study) with negative controls.

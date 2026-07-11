@@ -35,6 +35,7 @@ STAGES = [
     ('Robust meta + heterogeneity', '18_run_robust_meta.py', []),
     ('Advanced synthesis', '14_run_advanced_synthesis.py', []),
     ('Integrative synthesis', '16_run_integrative_synthesis.py', []),
+    ('Portability stress-test (ML atlas)', '19_run_ml_atlas.py', []),
 ]
 
 
