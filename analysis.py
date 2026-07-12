@@ -36,6 +36,8 @@ STAGES = [
     ('Advanced synthesis', '14_run_advanced_synthesis.py', []),
     ('Integrative synthesis', '16_run_integrative_synthesis.py', []),
     ('Portability stress-test (ML atlas)', '19_run_ml_atlas.py', []),
+    ('Network ranking', '20_run_network_ranking.py', []),
+    ('Atlas figures', '21_make_atlas_figures.py', []),
 ]
 
 

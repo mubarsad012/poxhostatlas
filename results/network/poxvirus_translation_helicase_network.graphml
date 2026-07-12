@@ -1,0 +1,756 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="degree_centrality" attr.type="double" />
+  <key id="d1" for="node" attr.name="community" attr.type="long" />
+  <key id="d0" for="node" attr.name="module" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="EIF5">
+      <data key="d0">other eIF</data>
+      <data key="d1">0</data>
+      <data key="d2">0.11538461538461539</data>
+    </node>
+    <node id="EIF3F">
+      <data key="d0">eIF3 complex</data>
+      <data key="d1">0</data>
+      <data key="d2">0.34615384615384615</data>
+    </node>
+    <node id="EIF4B">
+      <data key="d0">eIF4/initiation</data>
+      <data key="d1">0</data>
+      <data key="d2">0.15384615384615385</data>
+    </node>
+    <node id="EIF3B">
+      <data key="d0">eIF3 complex</data>
+      <data key="d1">0</data>
+      <data key="d2">0.38461538461538464</data>
+    </node>
+    <node id="EIF4H">
+      <data key="d0">eIF4/initiation</data>
+      <data key="d1">0</data>
+      <data key="d2">0.038461538461538464</data>
+    </node>
+    <node id="RPS23">
+      <data key="d0">40S ribosomal</data>
+      <data key="d1">0</data>
+      <data key="d2">0.8461538461538463</data>
+    </node>
+    <node id="EIF1AD">
+      <data key="d0">other eIF</data>
+      <data key="d1">0</data>
+      <data key="d2">0.23076923076923078</data>
+    </node>
+    <node id="EIF3L">
+      <data key="d0">eIF3 complex</data>
+      <data key="d1">0</data>
+      <data key="d2">0.3076923076923077</data>
+    </node>
+    <node id="RPL17">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL13A">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL7">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL10">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL22">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL34">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL28">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL15">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL13">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPS4X">
+      <data key="d0">40S ribosomal</data>
+      <data key="d1">0</data>
+      <data key="d2">0.8461538461538463</data>
+    </node>
+    <node id="RPS28">
+      <data key="d0">40S ribosomal</data>
+      <data key="d1">0</data>
+      <data key="d2">0.8461538461538463</data>
+    </node>
+    <node id="RPL11">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL31">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPL18">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPS9">
+      <data key="d0">40S ribosomal</data>
+      <data key="d1">0</data>
+      <data key="d2">0.8461538461538463</data>
+    </node>
+    <node id="RPS25">
+      <data key="d0">40S ribosomal</data>
+      <data key="d1">0</data>
+      <data key="d2">0.8461538461538463</data>
+    </node>
+    <node id="RPL30">
+      <data key="d0">60S ribosomal</data>
+      <data key="d1">1</data>
+      <data key="d2">0.6923076923076923</data>
+    </node>
+    <node id="RPS17">
+      <data key="d0">40S ribosomal</data>
+      <data key="d1">0</data>
+      <data key="d2">0.8461538461538463</data>
+    </node>
+    <node id="EIF4A3">
+      <data key="d0">eIF4/initiation</data>
+      <data key="d1">0</data>
+      <data key="d2">0.038461538461538464</data>
+    </node>
+    <edge source="EIF5" target="EIF3F">
+      <data key="d3">0.9</data>
+    </edge>
+    <edge source="EIF5" target="EIF4B">
+      <data key="d3">0.936</data>
+    </edge>
+    <edge source="EIF5" target="EIF3B">
+      <data key="d3">0.969</data>
+    </edge>
+    <edge source="EIF3F" target="RPS23">
+      <data key="d3">0.816</data>
+    </edge>
+    <edge source="EIF3F" target="EIF3B">
+      <data key="d3">0.999</data>
+    </edge>
+    <edge source="EIF3F" target="RPS4X">
+      <data key="d3">0.818</data>
+    </edge>
+    <edge source="EIF3F" target="RPS9">
+      <data key="d3">0.807</data>
+    </edge>
+    <edge source="EIF3F" target="RPS25">
+      <data key="d3">0.807</data>
+    </edge>
+    <edge source="EIF3F" target="RPS28">
+      <data key="d3">0.809</data>
+    </edge>
+    <edge source="EIF3F" target="RPS17">
+      <data key="d3">0.809</data>
+    </edge>
+    <edge source="EIF3F" target="EIF3L">
+      <data key="d3">0.999</data>
+    </edge>
+    <edge source="EIF4B" target="EIF4H">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="EIF4B" target="EIF3B">
+      <data key="d3">0.77</data>
+    </edge>
+    <edge source="EIF4B" target="EIF4A3">
+      <data key="d3">0.76</data>
+    </edge>
+    <edge source="EIF3B" target="RPS23">
+      <data key="d3">0.893</data>
+    </edge>
+    <edge source="EIF3B" target="RPS17">
+      <data key="d3">0.868</data>
+    </edge>
+    <edge source="EIF3B" target="RPS4X">
+      <data key="d3">0.886</data>
+    </edge>
+    <edge source="EIF3B" target="RPS25">
+      <data key="d3">0.892</data>
+    </edge>
+    <edge source="EIF3B" target="RPS28">
+      <data key="d3">0.898</data>
+    </edge>
+    <edge source="EIF3B" target="RPS9">
+      <data key="d3">0.934</data>
+    </edge>
+    <edge source="EIF3B" target="EIF3L">
+      <data key="d3">0.998</data>
+    </edge>
+    <edge source="RPS23" target="EIF1AD">
+      <data key="d3">0.8</data>
+    </edge>
+    <edge source="RPS23" target="EIF3L">
+      <data key="d3">0.867</data>
+    </edge>
+    <edge source="RPS23" target="RPL17">
+      <data key="d3">0.937</data>
+    </edge>
+    <edge source="RPS23" target="RPL13A">
+      <data key="d3">0.939</data>
+    </edge>
+    <edge source="RPS23" target="RPL7">
+      <data key="d3">0.949</data>
+    </edge>
+    <edge source="RPS23" target="RPL10">
+      <data key="d3">0.952</data>
+    </edge>
+    <edge source="RPS23" target="RPL22">
+      <data key="d3">0.952</data>
+    </edge>
+    <edge source="RPS23" target="RPL34">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPS23" target="RPL28">
+      <data key="d3">0.971</data>
+    </edge>
+    <edge source="RPS23" target="RPL15">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPS23" target="RPL13">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPS23" target="RPS4X">
+      <data key="d3">0.991</data>
+    </edge>
+    <edge source="RPS23" target="RPS28">
+      <data key="d3">0.996</data>
+    </edge>
+    <edge source="RPS23" target="RPL11">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS23" target="RPL31">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS23" target="RPL18">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS23" target="RPS9">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS23" target="RPS25">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS23" target="RPL30">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS23" target="RPS17">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="EIF1AD" target="RPS4X">
+      <data key="d3">0.8</data>
+    </edge>
+    <edge source="EIF1AD" target="RPS9">
+      <data key="d3">0.8</data>
+    </edge>
+    <edge source="EIF1AD" target="RPS28">
+      <data key="d3">0.8</data>
+    </edge>
+    <edge source="EIF1AD" target="RPS25">
+      <data key="d3">0.8</data>
+    </edge>
+    <edge source="EIF1AD" target="RPS17">
+      <data key="d3">0.8</data>
+    </edge>
+    <edge source="EIF3L" target="RPS4X">
+      <data key="d3">0.872</data>
+    </edge>
+    <edge source="EIF3L" target="RPS9">
+      <data key="d3">0.858</data>
+    </edge>
+    <edge source="EIF3L" target="RPS25">
+      <data key="d3">0.881</data>
+    </edge>
+    <edge source="EIF3L" target="RPS28">
+      <data key="d3">0.878</data>
+    </edge>
+    <edge source="EIF3L" target="RPS17">
+      <data key="d3">0.857</data>
+    </edge>
+    <edge source="RPL17" target="RPL13">
+      <data key="d3">0.936</data>
+    </edge>
+    <edge source="RPL17" target="RPL15">
+      <data key="d3">0.937</data>
+    </edge>
+    <edge source="RPL17" target="RPL7">
+      <data key="d3">0.935</data>
+    </edge>
+    <edge source="RPL17" target="RPL22">
+      <data key="d3">0.917</data>
+    </edge>
+    <edge source="RPL17" target="RPS4X">
+      <data key="d3">0.919</data>
+    </edge>
+    <edge source="RPL17" target="RPS9">
+      <data key="d3">0.93</data>
+    </edge>
+    <edge source="RPL17" target="RPL13A">
+      <data key="d3">0.929</data>
+    </edge>
+    <edge source="RPL17" target="RPL34">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL17" target="RPL31">
+      <data key="d3">0.933</data>
+    </edge>
+    <edge source="RPL17" target="RPL10">
+      <data key="d3">0.886</data>
+    </edge>
+    <edge source="RPL17" target="RPL30">
+      <data key="d3">0.909</data>
+    </edge>
+    <edge source="RPL17" target="RPS25">
+      <data key="d3">0.917</data>
+    </edge>
+    <edge source="RPL17" target="RPL18">
+      <data key="d3">0.94</data>
+    </edge>
+    <edge source="RPL17" target="RPL28">
+      <data key="d3">0.906</data>
+    </edge>
+    <edge source="RPL17" target="RPS17">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL17" target="RPS28">
+      <data key="d3">0.918</data>
+    </edge>
+    <edge source="RPL17" target="RPL11">
+      <data key="d3">0.939</data>
+    </edge>
+    <edge source="RPL13A" target="RPL13">
+      <data key="d3">0.967</data>
+    </edge>
+    <edge source="RPL13A" target="RPL15">
+      <data key="d3">0.971</data>
+    </edge>
+    <edge source="RPL13A" target="RPL7">
+      <data key="d3">0.956</data>
+    </edge>
+    <edge source="RPL13A" target="RPL22">
+      <data key="d3">0.95</data>
+    </edge>
+    <edge source="RPL13A" target="RPS4X">
+      <data key="d3">0.896</data>
+    </edge>
+    <edge source="RPL13A" target="RPS9">
+      <data key="d3">0.93</data>
+    </edge>
+    <edge source="RPL13A" target="RPS28">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL13A" target="RPS17">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL13A" target="RPS25">
+      <data key="d3">0.929</data>
+    </edge>
+    <edge source="RPL13A" target="RPL28">
+      <data key="d3">0.945</data>
+    </edge>
+    <edge source="RPL13A" target="RPL10">
+      <data key="d3">0.951</data>
+    </edge>
+    <edge source="RPL13A" target="RPL31">
+      <data key="d3">0.967</data>
+    </edge>
+    <edge source="RPL13A" target="RPL34">
+      <data key="d3">0.967</data>
+    </edge>
+    <edge source="RPL13A" target="RPL11">
+      <data key="d3">0.969</data>
+    </edge>
+    <edge source="RPL13A" target="RPL30">
+      <data key="d3">0.972</data>
+    </edge>
+    <edge source="RPL13A" target="RPL18">
+      <data key="d3">0.98</data>
+    </edge>
+    <edge source="RPL7" target="RPL13">
+      <data key="d3">0.967</data>
+    </edge>
+    <edge source="RPL7" target="RPL15">
+      <data key="d3">0.969</data>
+    </edge>
+    <edge source="RPL7" target="RPS17">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL7" target="RPS4X">
+      <data key="d3">0.919</data>
+    </edge>
+    <edge source="RPL7" target="RPS25">
+      <data key="d3">0.936</data>
+    </edge>
+    <edge source="RPL7" target="RPS28">
+      <data key="d3">0.938</data>
+    </edge>
+    <edge source="RPL7" target="RPL10">
+      <data key="d3">0.939</data>
+    </edge>
+    <edge source="RPL7" target="RPS9">
+      <data key="d3">0.945</data>
+    </edge>
+    <edge source="RPL7" target="RPL22">
+      <data key="d3">0.951</data>
+    </edge>
+    <edge source="RPL7" target="RPL34">
+      <data key="d3">0.956</data>
+    </edge>
+    <edge source="RPL7" target="RPL28">
+      <data key="d3">0.959</data>
+    </edge>
+    <edge source="RPL7" target="RPL18">
+      <data key="d3">0.967</data>
+    </edge>
+    <edge source="RPL7" target="RPL31">
+      <data key="d3">0.967</data>
+    </edge>
+    <edge source="RPL7" target="RPL30">
+      <data key="d3">0.969</data>
+    </edge>
+    <edge source="RPL7" target="RPL11">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPL10" target="RPL13">
+      <data key="d3">0.954</data>
+    </edge>
+    <edge source="RPL10" target="RPL15">
+      <data key="d3">0.943</data>
+    </edge>
+    <edge source="RPL10" target="RPL22">
+      <data key="d3">0.939</data>
+    </edge>
+    <edge source="RPL10" target="RPS4X">
+      <data key="d3">0.937</data>
+    </edge>
+    <edge source="RPL10" target="RPS9">
+      <data key="d3">0.945</data>
+    </edge>
+    <edge source="RPL10" target="RPL34">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL10" target="RPL31">
+      <data key="d3">0.952</data>
+    </edge>
+    <edge source="RPL10" target="RPL28">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL10" target="RPS28">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL10" target="RPS17">
+      <data key="d3">0.936</data>
+    </edge>
+    <edge source="RPL10" target="RPS25">
+      <data key="d3">0.942</data>
+    </edge>
+    <edge source="RPL10" target="RPL18">
+      <data key="d3">0.952</data>
+    </edge>
+    <edge source="RPL10" target="RPL11">
+      <data key="d3">0.952</data>
+    </edge>
+    <edge source="RPL10" target="RPL30">
+      <data key="d3">0.96</data>
+    </edge>
+    <edge source="RPL22" target="RPL13">
+      <data key="d3">0.956</data>
+    </edge>
+    <edge source="RPL22" target="RPL15">
+      <data key="d3">0.962</data>
+    </edge>
+    <edge source="RPL22" target="RPS28">
+      <data key="d3">0.895</data>
+    </edge>
+    <edge source="RPL22" target="RPL28">
+      <data key="d3">0.912</data>
+    </edge>
+    <edge source="RPL22" target="RPS17">
+      <data key="d3">0.927</data>
+    </edge>
+    <edge source="RPL22" target="RPS4X">
+      <data key="d3">0.93</data>
+    </edge>
+    <edge source="RPL22" target="RPS25">
+      <data key="d3">0.936</data>
+    </edge>
+    <edge source="RPL22" target="RPL11">
+      <data key="d3">0.946</data>
+    </edge>
+    <edge source="RPL22" target="RPL34">
+      <data key="d3">0.949</data>
+    </edge>
+    <edge source="RPL22" target="RPL31">
+      <data key="d3">0.962</data>
+    </edge>
+    <edge source="RPL22" target="RPL30">
+      <data key="d3">0.962</data>
+    </edge>
+    <edge source="RPL22" target="RPL18">
+      <data key="d3">0.963</data>
+    </edge>
+    <edge source="RPL22" target="RPS9">
+      <data key="d3">0.963</data>
+    </edge>
+    <edge source="RPL34" target="RPL13">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL34" target="RPL15">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL34" target="RPS4X">
+      <data key="d3">0.875</data>
+    </edge>
+    <edge source="RPL34" target="RPS9">
+      <data key="d3">0.964</data>
+    </edge>
+    <edge source="RPL34" target="RPS28">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL34" target="RPS17">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL34" target="RPL11">
+      <data key="d3">0.955</data>
+    </edge>
+    <edge source="RPL34" target="RPL18">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL34" target="RPL31">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL34" target="RPS25">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL34" target="RPL28">
+      <data key="d3">0.97</data>
+    </edge>
+    <edge source="RPL34" target="RPL30">
+      <data key="d3">0.97</data>
+    </edge>
+    <edge source="RPL28" target="RPL13">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL28" target="RPL15">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL28" target="RPS4X">
+      <data key="d3">0.875</data>
+    </edge>
+    <edge source="RPL28" target="RPS9">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL28" target="RPL31">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL28" target="RPL30">
+      <data key="d3">0.965</data>
+    </edge>
+    <edge source="RPL28" target="RPS25">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL28" target="RPL18">
+      <data key="d3">0.958</data>
+    </edge>
+    <edge source="RPL28" target="RPS17">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL28" target="RPS28">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL28" target="RPL11">
+      <data key="d3">0.966</data>
+    </edge>
+    <edge source="RPL15" target="RPL13">
+      <data key="d3">0.977</data>
+    </edge>
+    <edge source="RPL15" target="RPS4X">
+      <data key="d3">0.936</data>
+    </edge>
+    <edge source="RPL15" target="RPS17">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL15" target="RPS28">
+      <data key="d3">0.957</data>
+    </edge>
+    <edge source="RPL15" target="RPS9">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL15" target="RPL11">
+      <data key="d3">0.971</data>
+    </edge>
+    <edge source="RPL15" target="RPL31">
+      <data key="d3">0.972</data>
+    </edge>
+    <edge source="RPL15" target="RPL18">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPL15" target="RPL30">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPL15" target="RPS25">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPL13" target="RPS4X">
+      <data key="d3">0.932</data>
+    </edge>
+    <edge source="RPL13" target="RPS17">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL13" target="RPS28">
+      <data key="d3">0.963</data>
+    </edge>
+    <edge source="RPL13" target="RPL31">
+      <data key="d3">0.97</data>
+    </edge>
+    <edge source="RPL13" target="RPL11">
+      <data key="d3">0.971</data>
+    </edge>
+    <edge source="RPL13" target="RPS9">
+      <data key="d3">0.972</data>
+    </edge>
+    <edge source="RPL13" target="RPL30">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPL13" target="RPL18">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPL13" target="RPS25">
+      <data key="d3">0.976</data>
+    </edge>
+    <edge source="RPS4X" target="RPL18">
+      <data key="d3">0.922</data>
+    </edge>
+    <edge source="RPS4X" target="RPL31">
+      <data key="d3">0.923</data>
+    </edge>
+    <edge source="RPS4X" target="RPL30">
+      <data key="d3">0.924</data>
+    </edge>
+    <edge source="RPS4X" target="RPL11">
+      <data key="d3">0.926</data>
+    </edge>
+    <edge source="RPS4X" target="RPS28">
+      <data key="d3">0.99</data>
+    </edge>
+    <edge source="RPS4X" target="RPS17">
+      <data key="d3">0.992</data>
+    </edge>
+    <edge source="RPS4X" target="RPS25">
+      <data key="d3">0.995</data>
+    </edge>
+    <edge source="RPS4X" target="RPS9">
+      <data key="d3">0.996</data>
+    </edge>
+    <edge source="RPS28" target="RPS9">
+      <data key="d3">0.996</data>
+    </edge>
+    <edge source="RPS28" target="RPL31">
+      <data key="d3">0.995</data>
+    </edge>
+    <edge source="RPS28" target="RPL30">
+      <data key="d3">0.994</data>
+    </edge>
+    <edge source="RPS28" target="RPS25">
+      <data key="d3">0.996</data>
+    </edge>
+    <edge source="RPS28" target="RPL18">
+      <data key="d3">0.995</data>
+    </edge>
+    <edge source="RPS28" target="RPS17">
+      <data key="d3">0.995</data>
+    </edge>
+    <edge source="RPS28" target="RPL11">
+      <data key="d3">0.996</data>
+    </edge>
+    <edge source="RPL11" target="RPS9">
+      <data key="d3">0.967</data>
+    </edge>
+    <edge source="RPL11" target="RPL31">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPL11" target="RPL30">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPL11" target="RPS25">
+      <data key="d3">0.975</data>
+    </edge>
+    <edge source="RPL11" target="RPL18">
+      <data key="d3">0.996</data>
+    </edge>
+    <edge source="RPL11" target="RPS17">
+      <data key="d3">0.947</data>
+    </edge>
+    <edge source="RPL31" target="RPS9">
+      <data key="d3">0.974</data>
+    </edge>
+    <edge source="RPL31" target="RPS25">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPL31" target="RPS17">
+      <data key="d3">0.969</data>
+    </edge>
+    <edge source="RPL31" target="RPL18">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPL31" target="RPL30">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPL18" target="RPS9">
+      <data key="d3">0.976</data>
+    </edge>
+    <edge source="RPL18" target="RPL30">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPL18" target="RPS25">
+      <data key="d3">0.984</data>
+    </edge>
+    <edge source="RPL18" target="RPS17">
+      <data key="d3">0.957</data>
+    </edge>
+    <edge source="RPS9" target="RPL30">
+      <data key="d3">0.979</data>
+    </edge>
+    <edge source="RPS9" target="RPS25">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS9" target="RPS17">
+      <data key="d3">0.997</data>
+    </edge>
+    <edge source="RPS25" target="RPL30">
+      <data key="d3">0.968</data>
+    </edge>
+    <edge source="RPS25" target="RPS17">
+      <data key="d3">0.996</data>
+    </edge>
+    <edge source="RPL30" target="RPS17">
+      <data key="d3">0.947</data>
+    </edge>
+  </graph>
+</graphml>

@@ -43,3 +43,7 @@ Today I was working on building the advanced and integrative synthesis (in this 
 ## 2026-07-10
 
 Today the main goal that I had was so that I can create a leave-one-dataset-out portability stress-test (for example what I mean by this is a simple classifier checking whether or not there is signature transfers to an unseen study) with negative controls.
+
+## 2026-07-11
+
+Today I was mainly working on trying to create and fix the STRING network ranking and also working on assembling the composite atlas figures.

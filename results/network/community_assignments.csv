@@ -1,0 +1,28 @@
+gene,community,module
+RPS25,0,40S ribosomal
+RPS9,0,40S ribosomal
+RPS17,0,40S ribosomal
+RPS23,0,40S ribosomal
+RPS28,0,40S ribosomal
+RPS4X,0,40S ribosomal
+RPL28,1,60S ribosomal
+RPL18,1,60S ribosomal
+RPL31,1,60S ribosomal
+RPL11,1,60S ribosomal
+RPL13,1,60S ribosomal
+RPL15,1,60S ribosomal
+RPL34,1,60S ribosomal
+RPL30,1,60S ribosomal
+RPL10,1,60S ribosomal
+RPL7,1,60S ribosomal
+RPL13A,1,60S ribosomal
+RPL17,1,60S ribosomal
+RPL22,1,60S ribosomal
+EIF3B,0,eIF3 complex
+EIF3F,0,eIF3 complex
+EIF3L,0,eIF3 complex
+EIF1AD,0,other eIF
+EIF4B,0,eIF4/initiation
+EIF5,0,other eIF
+EIF4H,0,eIF4/initiation
+EIF4A3,0,eIF4/initiation
