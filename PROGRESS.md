@@ -47,3 +47,7 @@ Today the main goal that I had was so that I can create a leave-one-dataset-out 
 ## 2026-07-11
 
 Today I was mainly working on trying to create and fix the STRING network ranking and also working on assembling the composite atlas figures.
+
+## 2026-08-01
+
+Just finished with my final draft of the manuscript and also I added a supplementary material which was optional add-on for SRI. Also I generated the validation/QC report, and set up release packaging.
