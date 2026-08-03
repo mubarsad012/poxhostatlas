@@ -63,3 +63,7 @@ Today becuase of the wrapping up of the project I also re-verified the family-ag
 ## 2026-08-03
 
 Today I made sure that everything was working well for the repo and am getting ready to submitting my final manuscript and everything. Also re-rean an independent external validation using the Matia 2024 dataset: single-cell host shutoff across two cell types and cross-modality transcript-vs-protein concordance. Finalized analysis.py.
+
+## 2026-08-03
+
+Wow. I cannot believe I made it this far. Today I did my last things to close up any loose ends and I added the Yang & Moss (SRP056975) ribosome-profiling ingestion pipeline for future expansion and finalized the write-up (README, sources, submission brief) alongside the final manuscript and supplementary material (PDF).

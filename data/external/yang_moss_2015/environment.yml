@@ -1,0 +1,13 @@
+name: srp056975
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - sra-tools>=3.0      # prefetch/fasterq-dump (fallback to the wget script)
+  - fastp>=0.23         # RNA-seq QC/trim
+  - cutadapt>=4.0       # RPF 3' adapter trim
+  - bowtie2>=2.5        # rRNA/tRNA contaminant depletion
+  - star>=2.7           # spliced (RNA) + short-read (RPF) alignment
+  - samtools>=1.18
+  - subread>=2.0        # featureCounts
+  - pigz
