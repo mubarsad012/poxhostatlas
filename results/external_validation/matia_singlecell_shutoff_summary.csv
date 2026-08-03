@@ -1,0 +1,7 @@
+cell_type,metric,n_infected,n_uninfected,median_infected,median_uninfected,log2_ratio_inf_over_uninf,mannwhitney_p
+HeLa,human_frac,2174,2172,0.7578,0.9978,-0.397,0.0
+HeLa,n_genes,2174,2172,1976.0,4978.0,-1.333,0.0
+HeLa,human_n_counts,2174,2172,4166.5,22528.0,-2.435,0.0
+BJ5ta,human_frac,4802,6826,0.8041,0.9987,-0.313,0.0
+BJ5ta,n_genes,4802,6826,1740.0,2340.5,-0.428,0.0
+BJ5ta,human_n_counts,4802,6826,3433.5,5550.0,-0.693,0.0

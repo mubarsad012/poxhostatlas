@@ -1,0 +1,7 @@
+program,n_proteins,median_protein_log2FC
+RNA helicase,48,0.012
+Ribosomal protein,79,0.026
+Translation initiation (eIF),44,0.14
+Inflammatory/NF-kB,6,0.467
+Cell cycle/mitosis,13,-0.174
+other,6921,-0.085

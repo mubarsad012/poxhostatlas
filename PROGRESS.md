@@ -59,3 +59,7 @@ I ran today the genome wide and the family agnostic reproducibility analysis. He
 ## 2026-08-02
 
 Today becuase of the wrapping up of the project I also re-verified the family-agnostic cross-study co-expression network and re-ranked the most coordinately targeted host hubs.
+
+## 2026-08-03
+
+Today I made sure that everything was working well for the repo and am getting ready to submitting my final manuscript and everything. Also re-rean an independent external validation using the Matia 2024 dataset: single-cell host shutoff across two cell types and cross-modality transcript-vs-protein concordance. Finalized analysis.py.
