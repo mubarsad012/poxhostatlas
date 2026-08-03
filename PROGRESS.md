@@ -51,3 +51,7 @@ Today I was mainly working on trying to create and fix the STRING network rankin
 ## 2026-08-01
 
 Just finished with my final draft of the manuscript and also I added a supplementary material which was optional add-on for SRI. Also I generated the validation/QC report, and set up release packaging.
+
+## 2026-08-02
+
+I ran today the genome wide and the family agnostic reproducibility analysis. Here it ranked all the reproducibly remodeled host genes and further this tested which of the host programs are over-represented and this was also with a vaccinia-infection-only sensitivity layer. 

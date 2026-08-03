@@ -1,0 +1,11 @@
+program,genes_measured,median_pooled_log2FC,mean_pooled_log2FC,frac_up,n_sig_FDR05,n_sig_up,n_sig_down
+Ribosomal proteins (cytoplasmic),84,-0.787,-0.687,0.107,2,0,2
+Cholesterol / sterol biosynthesis,18,-0.704,-0.575,0.222,0,0,0
+Cell cycle / mitosis,21,-0.584,-0.478,0.143,6,1,5
+Mitochondrial ribosome,76,-0.551,-0.442,0.184,0,0,0
+Translation initiation (eIF),49,-0.324,-0.282,0.245,0,0,0
+Integrated stress response / UPR,20,-0.321,-0.322,0.35,1,0,1
+Apoptosis / cell death,15,-0.156,-0.149,0.467,1,0,1
+RNA helicases (DEAD/DEAH-box),47,0.095,0.262,0.617,4,4,0
+Interferon-stimulated genes (ISG),25,0.214,0.562,0.6,0,0,0
+Inflammatory / NF-kB signaling,16,0.744,0.779,0.812,1,1,0
