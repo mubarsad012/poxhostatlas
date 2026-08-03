@@ -1,0 +1,5 @@
+community,n_genes,dominant_program,frac_up,top_hubs
+0,128,other,1.0,"CPEB3, MCTP1, LENG9, TAF13, DTNA, KBTBD8"
+1,93,other,0.0,"FAM53B, CREB3L4, C16ORF74, NDUFC1, BTN3A2, ABTB1"
+2,1,other,1.0,EMILIN1
+3,1,other,1.0,XYLT1
