@@ -2,6 +2,24 @@
 """Independent external validation of the reproducible host program using the
 Matía et al. (2024, bioRxiv) Vaccinia dataset.
 
+This is a third independent Vaccinia infection study (HeLa + BJ5ta fibroblasts),
+from a different lab and two orthogonal modalities, used to test whether the
+reproducible host program found by our cross-study RNA-seq meta-analysis holds:
+
+  (A) Single-cell, two cell types (cross-CONTEXT reproducibility):
+      does host transcriptional output (host-read fraction; host genes detected)
+      drop upon infection in BOTH HeLa and BJ5ta? -> tests host shutoff.
+
+  (B) Proteomics (cross-MODALITY reproducibility):
+      do the transcript-level reproducible up/down genes move the same way at the
+      PROTEIN level (Vaccinia vs uninfected whole-cell extract)? -> tests that
+      the transcriptional program is reflected in protein abundance.
+
+Inputs (vendored under data/external/matia2024/ for provenance):
+  matia2024_singlecell_metadata.xlsx  (sheets metadata_HeLa, metadata_BJ5ta)
+  matia2024_proteomics.xlsx           (sheet proteomics_HeLa_host; log2 LFQ WCE)
+
+All offline. Source: Matía et al., bioRxiv 2024.01.13.575413.
 """
 
 from __future__ import annotations
@@ -88,8 +106,11 @@ def single_cell_figure() -> None:
             ax = axes[row, col]
             data = [df.loc[state == "uninfected", metric].dropna(),
                     df.loc[state == "infected", metric].dropna()]
-            bp = ax.boxplot(data, labels=["uninfected", "infected"], showfliers=False,
-                            patch_artist=True, widths=0.6)
+            # NOTE: set tick labels separately -- boxplot's `labels=` kwarg was renamed
+            # to `tick_labels` in matplotlib 3.9, so passing either breaks one version range.
+            bp = ax.boxplot(data, showfliers=False, patch_artist=True, widths=0.6)
+            ax.set_xticks([1, 2])
+            ax.set_xticklabels(["uninfected", "infected"])
             for patch, c in zip(bp["boxes"], ["#3E6FB6", "#C94A4A"]):
                 patch.set_facecolor(c); patch.set_alpha(0.7)
             ax.set_ylabel(ylab)
