@@ -93,9 +93,9 @@ The primary model uses supplementary count filenames as the fraction source of t
 - `results/mechanistic/module_enrichment_barplot.pdf`: 19198 bytes; SHA256 `40d95bb45964e29e04cb8a1e389c5a6794ae485c461ab2d4878fd1edde48229c`.
 - `results/mechanistic/module_enrichment_barplot.png`: 236579 bytes; SHA256 `20cda4d00b2a2fb4fbec4b6c2f9c9a2c1b6e0f843d60dca8530408c92df499bd`.
 - `results/mechanistic/module_enrichment_barplot.svg`: 103253 bytes; SHA256 `db99dccfbe83a09b2288e1a46f4737b15b9726d09b1cbbfdd8a430363f3c9db4`.
-- `results/mechanistic/string_priority_network.pdf`: 29738 bytes; SHA256 `928d81a57015ebc9b49ed0658464698c81082d4a0890f7a21758425fb9e55ab9`.
-- `results/mechanistic/string_priority_network.png`: 1524929 bytes; SHA256 `198781269ee00cdec1c3cee2ef98e9d5a50bd0af13c6d61b2b979bab5ae08c34`.
-- `results/mechanistic/string_priority_network.svg`: 107117 bytes; SHA256 `8862d118391f3718498b6c608fe1ba0d3e468cdaeee570e8f53e996c343d1c8b`.
+- `results/mechanistic/string_priority_network.pdf`: 28595 bytes; SHA256 `bdd85ae91576438db14513c96f2215d0f0d929b7b960b80566c1c321b2515a36`.
+- `results/mechanistic/string_priority_network.png`: 1447996 bytes; SHA256 `0b72db678975465ddeb2dbc4fd5f15c1eed477a9f868c75707371ed4eb074ca7`.
+- `results/mechanistic/string_priority_network.svg`: 105944 bytes; SHA256 `cbe4a48241e2b56dda3b9270518a589a610a551ca3473916166cab869dcd2dbe`.
 
 ## Hash Receipt
 

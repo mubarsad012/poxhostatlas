@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""This is for doing:; add host-curated and also mechanistic prioritization evidence for the poxvirus analysis."""
+"""Add host-curated, mechanistic prioritization evidence for the poxvirus analysis."""
 
 from __future__ import annotations
 
@@ -767,10 +767,12 @@ def save_string_network_plot(edges: pd.DataFrame, nodes: pd.DataFrame) -> None:
     node_names = nodes["gene_symbol"].tolist()
     angle = np.linspace(0, 2 * np.pi, len(node_names), endpoint=False)
     positions = {name: (np.cos(a), np.sin(a)) for name, a in zip(node_names, angle, strict=True)}
+    angles = {name: a for name, a in zip(node_names, angle, strict=True)}
     score_norm = colors.Normalize(vmin=-2.5, vmax=2.5)
     cmap = plt.get_cmap("coolwarm")
-    fig, ax = plt.subplots(figsize=(8, 8))
+    fig, ax = plt.subplots(figsize=(11, 11))
     ax.set_axis_off()
+    ax.set_aspect("equal")
     for _, edge in edges.iterrows():
         a = str(edge["preferredName_A"])
         b = str(edge["preferredName_B"])
@@ -793,9 +795,20 @@ def save_string_network_plot(edges: pd.DataFrame, nodes: pd.DataFrame) -> None:
         degree = pd.to_numeric(node.get("degree_in_string_subnetwork"), errors="coerce")
         size = 120 + 45 * (float(degree) if pd.notna(degree) else 0.0)
         ax.scatter(x, y, s=size, color=color, edgecolor="#222222", linewidth=0.6, zorder=2)
-        ax.text(x * 1.12, y * 1.12, name, ha="center", va="center", fontsize=8)
-    ax.set_title("High-confidence STRING physical subnetwork for prioritized targets")
-    fig.tight_layout()
+    label_r = 1.16
+    for name in node_names:
+        a = angles[name]
+        lx, ly = label_r * np.cos(a), label_r * np.sin(a)
+        deg = np.degrees(a)
+        if np.cos(a) >= 0:
+            ha, rot = "left", deg
+        else:
+            ha, rot = "right", deg - 180
+        ax.text(lx, ly, name, rotation=rot, rotation_mode="anchor",
+                ha=ha, va="center", fontsize=8, zorder=3)
+    ax.set_xlim(-1.38, 1.38)
+    ax.set_ylim(-1.38, 1.38)
+    ax.set_title("High-confidence STRING physical subnetwork for prioritized targets", fontsize=13, pad=20)
     for suffix in ("png", "pdf", "svg"):
         fig.savefig(MECH_DIR / f"string_priority_network.{suffix}", dpi=300, bbox_inches="tight")
     plt.close(fig)
