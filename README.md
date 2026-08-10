@@ -14,6 +14,8 @@
 - Which host hubs are most consistently targeted?
 - RNA-helicase remodeling = one pre-specified sub-question, not the headline
 
+
+
 ## Key findings
 
 - **1,834** host genes reproducibly remodeled (871 up, 963 down)
@@ -26,6 +28,8 @@
 - Central hubs: IL6, PTPRC, MAFB
 - Portable to held-out studies (balanced accuracy 0.79; permuted 0.54)
 - External validation (Matía 2024): single-cell shutoff in 2 cell types + transcript↔protein concordance (ρ = 0.31)
+
+
 
 ## Datasets
 
@@ -40,6 +44,8 @@
 - 12 screened · 16,841 host genes in ≥3 studies
 - Registry: `docs/dataset_registry.csv` · criteria: `docs/dataset_inclusion_criteria.md` · excluded: `docs/excluded_datasets.csv`
 
+
+
 ## Pipeline
 
 - Discovery + pre-registered tiering
@@ -49,6 +55,8 @@
 - Family-agnostic cross-study co-expression network + centrality + communities
 - Leave-one-dataset-out portability stress-test — permutation, ablation, negative controls
 - Independent external validation — single-cell + proteomics
+
+
 
 ## Modules (script → output)
 
@@ -60,6 +68,8 @@
 - `21_make_atlas_figures.py` → `results/genomewide/figures/` — atlas, volcano, enrichment, network, forests
 - `12_run_expanded_dge.py`, `14_run_advanced_synthesis.py`, `16_run_integrative_synthesis.py` → `results/expanded/`, `results/synthesis/`
 
+
+
 ## Setup
 
 ```bash
@@ -67,6 +77,8 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+
 
 ## Run
 
@@ -84,6 +96,8 @@ python scripts/07_generate_validation_report.py
 python scripts/08_prepare_release.py
 ```
 
+
+
 ## Key outputs
 
 - `results/genomewide/` — ranked reproducible genes, `top50_reproducible_{up,down}.csv`, `program_enrichment.csv`, `program_direction_summary{,_vaccinia_only}.csv`, `helicase_rank_in_context.csv`
@@ -94,16 +108,28 @@ python scripts/08_prepare_release.py
 - `docs/OPENBIO_SRI_SUBMISSION_BRIEF.md` — mentor/SRI brief
 - `release/` — packaged release (data, figures, tables, provenance, hashes, code)
 
+
+
 ## Scope
 
 - Computational · reproducible · hypothesis-generating
 - No claim of primary dataset discovery, the RACK1/eIF3 mechanism, or causal host-gene function
 - Transcript-level signals + one independent proteomic validation
 
+
+
 ## Data availability
 
 - Public accessions: GSE278320, GSE284044, GSE287860, GSE288000, GSE185520
 - Code, registry, tables, figures released with SHA-256 manifest
+
+
+
+**Claude AI**  
+  
+Claude Code (Anthropic) will be utilized within this project as a supplementary tool for code verification and formatting during the preparation of this research project and also the accompanying figures. Approval was recieved from my mentor, as OpenBio SRI has directed students to do. 
+
+
 
 ## References
 
